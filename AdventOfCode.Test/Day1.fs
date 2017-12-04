@@ -4,7 +4,7 @@ open Microsoft.VisualStudio.TestTools.UnitTesting;
 open AdventOfCode;
 
 [<TestClass>]
-type TestClass () =
+type Day1 () =
     [<DataTestMethod>]
     [<DataRow("1122", 3)>]
     [<DataRow("1111", 4)>]
