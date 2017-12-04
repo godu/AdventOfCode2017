@@ -1,0 +1,5 @@
+language: csharp
+solution: solution-name.sln
+script: cd AdventOfCode.Test && dotnet test
+mono: none
+dotnet: 2.0.3
