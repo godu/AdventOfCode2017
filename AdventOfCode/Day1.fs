@@ -1,8 +1,6 @@
 namespace AdventOfCode
 
 module Day1 =
-    open System
-    
     let parseInt: char -> int = string >> int
 
     let foo char1 char2 =
